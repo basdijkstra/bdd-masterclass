@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 	features = {"classpath:features"},
 	glue = {"stepdefinitions"},
 	plugin = {"pretty", "json:target/cucumber-json-report/cucumber-json-report.json"},
-	tags = {"@rotterdam, @mortgage, @telecom"}
+	tags = {"@rotterdam, @mortgage, @accountancy, @telecom"}
 )
 
 public class RunCucumberTest{
